@@ -2,9 +2,42 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
     
 }
 
 .nav-bar ul li a{
     color: black;
+}
+
+.orange-color{
+    color: orange;
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(87, 46, 201), rgb(56, 106, 216));
+    padding: 5px 5px;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.section-three{
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.div-three{
+    padding-left: 7%;
+     width: 100%;
+ }
+ .div-three img{
+    width: 100%;
 }
